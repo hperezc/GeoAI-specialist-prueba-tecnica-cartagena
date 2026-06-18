@@ -1,0 +1,42 @@
+# Core scientific
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11
+
+# Geospatial
+geopandas>=0.14
+rasterio>=1.3
+rioxarray>=0.15
+xarray>=2024.1
+shapely>=2.0
+pyproj>=3.6
+fiona>=1.9
+
+# Earth Engine + remote sensing
+earthengine-api>=0.1.380
+geemap>=0.32
+
+# OpenStreetMap
+osmnx>=1.9
+
+# Machine learning
+scikit-learn>=1.3
+scikit-image>=0.22
+xgboost>=2.0
+imbalanced-learn>=0.12
+
+# Visualization
+matplotlib>=3.8
+seaborn>=0.13
+folium>=0.15
+contextily>=1.5
+pillow>=10.0
+
+# Notebooks
+jupyter>=1.0
+ipykernel>=6.27
+ipywidgets>=8.1
+
+# Utilities
+tqdm>=4.66
+python-dotenv>=1.0

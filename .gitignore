@@ -1,0 +1,49 @@
+# ─────────────────────────────────────────────────────────────
+# Datos auxiliares nacionales (fuentes pesadas no usadas por el código)
+# El código solo usa Barrios_de_Cartagena (322 KB) y el perímetro ya
+# filtrado en data/raw/cartagena_perimetro_urbano_dane/. Los shapefiles
+# nacionales del MGN/IGAC suman ~200 MB y se descargan independientemente
+# desde el geoportal Colombia en Mapas si se quiere reproducir el filtro.
+data-colombia/MGN2024_URB_ZONA_URBANA/
+data-colombia/Municipios_Abril_2026_shp/
+data-colombia/DivisionPoliticoAdministrativa_Abril_2026_shp/
+
+# ─────────────────────────────────────────────────────────────
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+
+# ─────────────────────────────────────────────────────────────
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+notebooks/cache/
+
+# ─────────────────────────────────────────────────────────────
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─────────────────────────────────────────────────────────────
+# macOS
+.DS_Store
+
+# ─────────────────────────────────────────────────────────────
+# Google Earth Engine credentials
+.earthengine/
+credentials.json
+
+# ─────────────────────────────────────────────────────────────
+# Logs
+*.log
+logs/
