@@ -77,9 +77,11 @@ Ejecutar los notebooks en orden:
 
 Después de correr el flujo completo, en `outputs/` se generan:
 
-- `outputs/results/probabilidad_asentamientos_informales_cartagena.tif` — Raster de probabilidad continua (0–1)
-- `outputs/results/asentamientos_informales_clasificado.gpkg` — Capa vectorial con clasificación en 4 niveles (Muy Alta, Alta, Media, Baja)
-- `outputs/maps/mapa_final.pdf` — Mapa cartográfico estático para difusión
+- `outputs/results/probabilidad_asentamientos_informales_cartagena.tif` — Raster de probabilidad continua (0–1) por celda de 100 m
+- `outputs/results/asentamientos_informales_clasificado.gpkg` — Capa vectorial de celdas (8,902 polígonos de 100 m × 100 m) con probabilidad y clasificación en 4 niveles
+- `outputs/results/zonas_clasificadas_disueltas.gpkg` — Capa vectorial de zonas continuas (celdas contiguas de la misma clase disueltas), con estadísticas agregadas por zona (probabilidad media/mín/máx, área, número de celdas)
+- `outputs/results/asentamientos_informales_cartagena.geojson` — GeoJSON simplificado para uso web
+- `outputs/maps/mapa_final.pdf` y `mapa_clases.pdf` — Mapas cartográficos estáticos para difusión
 - `docs/nota_tecnica.pdf` — Documento técnico completo
 
 ## 7. Resumen metodológico
